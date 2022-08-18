@@ -28,19 +28,19 @@ public class RunningTimeServlet extends HttpServlet{
 		}
 		
 		out.println("---------------------");
-		
-		out.println("Have a nice train");
-		
-		out.println("---------------------");
 
 		if(timeRun <= 130) {
-			out.println("You need to run 50 km per week");
+			out.println("You need to run 50 km per week if you want to go under 2 hours");
 		}else if(timeRun >=130){
-			out.println("You can train 42 km per week");
+			out.println("You can train 42 km per week for over 2 hours");
 		}else{
 			out.println("Try againg with the correct awnser");
 		}
 		
+		out.println("---------------------");
+		
+		out.println("Have a nice train");
+
 		
 	}
 
