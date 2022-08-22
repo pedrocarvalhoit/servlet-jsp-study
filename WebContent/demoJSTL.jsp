@@ -7,22 +7,22 @@
 <html>
 <head>
 	<meta charset="ISO-8859-1">
-	<title>Insert title here</title>
+	<title>Insert title here</title>  
 </head>
-	<body>
+<body>
 	
-		${label }<br>
+	${label }<br>
 		
-		${student1 }<br>
+	${student1 }<br>
 		
-		<c:out value=" ${label }" /> <br> 
+	<c:out value=" ${label }" /> <br> 
 		
 		
-		-- Student list <br> 
+	-- Student list <br> 
 		
-		<c:forEach items="${students }" var="s">
-			${s }	<br>
-		</c:forEach>
-		
-	</body>
+	<c:forEach items="${students }" var="s">
+		${s }	<br>
+	</c:forEach>
+				
+</body>
 </html>
